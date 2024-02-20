@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import Style from "./style";
+import { IoIosSearch } from "react-icons/io";
+
 
 export default function Header (){
  return(
@@ -18,7 +20,7 @@ export default function Header (){
              </ul>
           </div>
           <div >
-            <button>search</button>
+            <a href="#" className="search-button"><IoIosSearch/></a>
           </div>
         </div>
     </Style>

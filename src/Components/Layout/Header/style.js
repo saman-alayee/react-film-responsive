@@ -38,10 +38,15 @@ margin-top:8px;
     justify-content:space-between;
     width:100%;
 }
-.search{
-    background-color: rgb(38, 38, 38);
-    border-color: rgb(38, 38, 38);
-    color: rgb(110, 110, 110)
+.search-button{
+    background-color:rgb(30, 30, 30);
+    font-size:15px;
+    color:white;
+    margin-right:25px;
+    outline:none;
+    &:hover{
+        color:blue;
+    }
 }
 `
 
