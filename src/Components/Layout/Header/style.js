@@ -5,7 +5,7 @@ display:flex;
 align-items:center;
 background-color:black;
 border-radius:17px;
-margin-top:8px;
+margin:8px;
 .logo{
  width:61px;
  height:auto;
@@ -28,6 +28,9 @@ margin-top:8px;
           color:rgb(110, 110, 110);
           font-size:20px;
           line-height:10px;
+          &:hover{
+            color:white;
+          }
         }
     }
  }
@@ -40,10 +43,13 @@ margin-top:8px;
 }
 .search-button{
     background-color:rgb(30, 30, 30);
-    font-size:15px;
+    font-size:26px;
     color:white;
     margin-right:25px;
-    outline:none;
+    border: 3.13px solid rgb(30, 30, 30);
+    padding: 4px 9px;
+    border-radius:15px;
+    line-height:10px;
     &:hover{
         color:blue;
     }
