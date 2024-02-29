@@ -3,17 +3,13 @@ import styled from "styled-components"
 export const Style= styled.div`
 background-color:rgb(25, 25, 25);
 color:rgb(168, 168, 168);
-margin: 50px 308px;
-margin-bottom:40px;
-margin-top:40px;
-border-radius:20px;
 p{
     padding:0;
     margin:0
 }
 .container{
-    width:1100;
-    margin:0 auto;
+    width:800px;
+    margin:80px auto;
     text-align: left;
 }
 p{
@@ -45,9 +41,6 @@ p{
 .mr-25{
     margin-right:25px;
 }
-.text-align{
-    text-align:left;
-}
 .box-input-bg{
     width:300px;
     height:50px;
@@ -61,6 +54,34 @@ p{
 }
 .flex{
 display:flex;
+}
+.flex-direction{
+    flex-direction:column;
+}
+.width{
+    width:100%;
+}
+.gap-10{
+    gap:10px;
+}
+.holder-box{
+    background-color: #000000;
+    color: rgb(168, 168, 168);
+    padding: 20px 27px;
+    border-radius:15px;
+}
+.text-center{
+    text-align:center;
+    align-items:center;
+}
+.padding-input{
+    padding: 15px 65px;
+}
+.submit{
+    width: 18%;
+    padding: 10px 0px;
+    background-color: green;
+    margin-left: 87px;
 }
 `
 

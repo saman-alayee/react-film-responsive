@@ -2,10 +2,6 @@ import styled from "styled-components"
 
 export const Style = styled.div`
 background-color:rgb(28, 28, 28);
-/* position:fixed;
-bottom:0 ;
-left:0;
-width:100%; */
 p{
     padding:0;
     margin:0;
@@ -15,7 +11,7 @@ color:white;
 .container{
     width:1340px;
     margin:auto;
-    padding:30px 0;
+    padding:50px 0;
 }
 .flex{
     display:flex;
@@ -70,6 +66,9 @@ align-items:center
 .m-b-25{
 margin-bottom:25px;
 }
+.m-l-20{
+    margin-left:20px;
+}
 .dow-app{
     font-size:15px;
     color: rgb(168, 168, 168);
@@ -85,6 +84,16 @@ margin-bottom:25px;
 }
 .width{
   width:30%;
+}
+.border-line-right{
+    padding-right: 100px;
+    border-right: 3px solid rgb(39, 39, 39);
+}
+.border-icons{
+    border:1px solid white;
+    background: rgb(53, 53, 53);
+    border-radius:50%;
+    padding:5px;
 }
 `
 
