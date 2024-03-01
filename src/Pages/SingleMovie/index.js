@@ -3,9 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import api from "../../Helper/Api";
 import Style from "./style";
 
- export default function SingleMovie(props){
+ export default function SingleMovie(){
     const {id} = useParams();
-    const{ title , genre_id}= props;
     const [data, setdata] =useState({
         id: 1,
 title: "",
@@ -46,7 +45,7 @@ images: [
           setLoading(false);
         }
     }
-    const {id:moveiId , poster , title:moveiTitle , plot, year,genres ,released ,country,images ,imdb_rating, actors  }= data
+    const {id:moveiId , poster , title:moveiTitle , plot, year, genres ,country,images ,imdb_rating, actors  }= data
     return(
         <Style>
           <div className="movie-information">
@@ -63,7 +62,11 @@ images: [
                     <h6> year: {year}</h6>
                     <span>actors: {actors}</span>
                     <p>{plot}</p>
-                    <img src={images} alt={moveiTitle}/>
+                    <div className="container gallery">
+                      <img className="img-gallery" src={images[0]} alt={moveiTitle}/>
+                      <img className="img-gallery" src={images[1]} alt={moveiTitle}/>
+                      <img className="img-gallery" src={images[2]} alt={moveiTitle}/>
+                    </div>
                   </div>
                </div>}
             </div>

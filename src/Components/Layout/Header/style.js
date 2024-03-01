@@ -1,11 +1,18 @@
 import styled from "styled-components"
 
 export const Style = styled.div`
-display:flex;
+.dis-menu{
+  display:flex;
 align-items:center;
 background-color:black;
 border-radius:17px;
 margin:8px;
+width:100%;
+}
+.fixed{
+position:fixed;
+top:0;
+}
 .logo{
  width:61px;
  height:auto;

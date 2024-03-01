@@ -22,6 +22,17 @@ align-items:center;
     width:200px;
     height:auto;
 }
+.gallery{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.container{
+    width:100%;
+}
+.img-gallery{
+    width:20%;
+}
 `
 
 export default Style;

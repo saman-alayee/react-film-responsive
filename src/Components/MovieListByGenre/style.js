@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Style = styled.div`
 h2{
   color:red;
+  &:hover{
+    background-color:blue;
+  }
 }
 ul{
     display:flex;

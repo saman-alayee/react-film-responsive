@@ -1,16 +1,19 @@
 import { Fragment } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Style from "./style";
+import { Outlet } from "react-router-dom";
+import Style from "./Header/style";
+
 
 
 export default function Layout (props){
  return(
         <Fragment>
-            <Header/>
-            <Style>
+            <Header/>   
+            <Outlet/>
+            <Style>   
             {props.children}
-            </Style>
+            </Style>  
             <Footer/>
         </Fragment>
  )
