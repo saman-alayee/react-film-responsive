@@ -7,6 +7,13 @@ p{
     margin:0;
     font-size:16px;
 }
+.fixed{
+  position:fixed;
+  bottom:0 ;
+
+  z-index: 2;
+  width:100%;
+}
 color:white;
 .container{
     width:1340px;
@@ -64,6 +71,7 @@ align-items:center
         color:white;
 }
 .m-b-25{
+
 margin-bottom:25px;
 }
 .m-l-20{

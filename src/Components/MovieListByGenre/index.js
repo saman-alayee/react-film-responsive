@@ -27,7 +27,10 @@ import Style from "./style";
             return(
                 <li key={id}>
                     <Link to={`/m/${id}`}>
-                    <img src={poster} alt={title}/>
+                    <div className="holder-img">
+                        <img src={poster}/>
+                        <div className="dark-overlay"></div>
+                        </div>
                     <h3>{title}</h3>
                     </Link>
                 </li>
@@ -37,7 +40,7 @@ import Style from "./style";
     return(
         <Style>
           <h2>{title}</h2>
-          {loading ? <p> please waite a moment </p> : <ul>{renderFarm()}</ul>}
+          {loading ? <p> please waite a moment </p> : <ul className="list">{renderFarm()}</ul>}
         </Style>
     )
  }

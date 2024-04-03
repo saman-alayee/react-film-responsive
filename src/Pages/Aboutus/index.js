@@ -1,7 +1,9 @@
-import { Fragment } from "react";
+
+import { usePageTitle } from "../../Hooks/usePageTitle";
 import Style from "./style";
 
 export default function AboutUs (){
+    const title = usePageTitle("AboutUs")
  return(
       <Style>
        <div className="container flex holder-box">

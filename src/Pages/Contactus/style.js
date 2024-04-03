@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const Style= styled.div`
 background-color:rgb(25, 25, 25);
 color:rgb(168, 168, 168);
+margin-top: 160px;
 p{
     padding:0;
     margin:0

@@ -5,6 +5,8 @@ import Contactus from "../Pages/Contactus"
 import SingleMovie from "../Pages/SingleMovie"
 import Layout from "./Layout"
 import ErrorPage from "../Pages/Eror"
+import Movies from "../Pages/Movies"
+import Search from "../Pages/Search"
 
 
 export default function Router(){
@@ -29,6 +31,14 @@ export default function Router(){
                 {
                     path:"/m/:id",
                     element: <SingleMovie/>
+                },
+                {
+                    path:"/movies",
+                    element: <Movies/>
+                },
+                {
+                    path:"/search",
+                    element: <Search/>
                 }
         ]
         }

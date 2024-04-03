@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import api from "../../Helper/Api";
 import Style from "./style";
 
@@ -45,27 +45,32 @@ images: [
           setLoading(false);
         }
     }
-    const {id:moveiId , poster , title:moveiTitle , plot, year, genres ,country,images ,imdb_rating, actors  }= data
+    const {id:moveiId , poster , title:moveiTitle , plot, year, genres ,country,images ,imdb_rating, actors ,writer,type,director }= data
     return(
         <Style>
           <div className="movie-information">
             <div className="container">
-              { loading ? <div> vaysaaaa alan miaaad</div> : <div className="holder-movie">
+              { loading ? <h1> please wait</h1> : <div className="holder-movie">
                   <div className="poster">
                      <img className="poster-size" src={poster} alt={moveiTitle}/>
                   </div>
                    <div className="detailes">
-                    <h1>{moveiTitle}</h1>
-                    <h3>country :{country}</h3>
-                    <h3>genres :{genres}</h3>
-                    <h5>imdb_rating: {imdb_rating}</h5>
-                    <h6> year: {year}</h6>
-                    <span>actors: {actors}</span>
-                    <p>{plot}</p>
-                    <div className="container gallery">
+                    <h1 className="movei-name">{moveiTitle}</h1>
+                    <h3> director : {director}</h3>
+                    <h3> writer : {writer}</h3>
+                    <h3>actors: {actors}</h3>
+                    <h4>country :{country}</h4>
+                    <h4> year : {year}</h4>
+                    <div className=" gallery mt-20">
                       <img className="img-gallery" src={images[0]} alt={moveiTitle}/>
                       <img className="img-gallery" src={images[1]} alt={moveiTitle}/>
                       <img className="img-gallery" src={images[2]} alt={moveiTitle}/>
+                    </div>
+                    <div className="holder-coment">
+                       <h5>imdb_rating : {imdb_rating}</h5>
+                       <p> type: {type}</p>
+                       <h3>genres : {genres}</h3>
+                       <p>description: {plot}</p>
                     </div>
                   </div>
                </div>}

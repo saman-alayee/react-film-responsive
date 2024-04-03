@@ -1,6 +1,8 @@
+import { usePageTitle } from "../../Hooks/usePageTitle";
 import Style from "./style";
 
 export default function Contactus (){
+  const title = usePageTitle("ContactUs")
  return(
       <Style>
        <div className="container holder-box text-center ">

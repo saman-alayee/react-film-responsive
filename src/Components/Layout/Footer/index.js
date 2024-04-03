@@ -4,7 +4,7 @@ import Logo from "../../../Images/logo.png"
 export default function Footer (){
  return(
     <Style>
-      <div className="container">
+      <div className="container ">
         <div className="flex-holder flex justy-space gap-20">
           <div className="text-box flex flex-dir-column flex-wrap width border-line-right">
             <div className="line-one flex flex-wrap flex-dir-row align-items-center m-b-25 gap-10">

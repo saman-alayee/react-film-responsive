@@ -3,10 +3,8 @@ import styled from "styled-components"
 export const Style= styled.div`
 background-color:rgb(25, 25, 25);
 color:rgb(168, 168, 168);
-/* margin: 50px 308px;
-margin-bottom:20px; */
-margin-top:80px;
-/* margin-bottom:65px; */
+margin-bottom:80px;
+margin-top:160px;
 .container{
     width:900px;
     margin:0 auto;

@@ -2,22 +2,25 @@ import styled from "styled-components"
 
 export const Style = styled.div`
 .dis-menu{
-  display:flex;
+display:flex;
 align-items:center;
 background-color:black;
 border-radius:17px;
-margin:8px;
-width:100%;
+margin: 10px 0;
 }
 .fixed{
-position:fixed;
-top:0;
+  position:fixed;
+  top:0;
+  right:0;
+  z-index: 2;
+  width:100%;
 }
+
 .logo{
  width:61px;
  height:auto;
- margin-left:12px;
  margin-right:15px;
+ margin-left: 9px;
 }
 .menu{
  ul{
@@ -73,6 +76,33 @@ top:0;
 }
 .align-center{
   align-items:center;
+}
+@media(max-width:1200px ){
+  width:100%;
+}
+@media (max-width:1000px){
+  .AboutUs{
+     display:none;
+  }
+  .ContactUs{
+    display:none;
+  }
+}
+@media(max-width: 700px){
+   width:100%;
+   .dow-app-red{
+    display:none;
+   }
+}
+@media (max-width: 500px){
+  .logo{
+    display:none;
+  }
+  .menu{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  
 }
 `
 
