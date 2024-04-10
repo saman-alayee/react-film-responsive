@@ -21,7 +21,7 @@ export const Style = styled.div`
     
     margin-top: 4rem;
     @media (max-width: 768px) {
-      grid-template-columns: repeat(7, 1fr); /* Change to 4 columns for medium screens */
+      grid-template-columns: repeat(4, 1fr); /* Change to 4 columns for medium screens */
     }
     @media (max-width: 576px) {
       grid-template-columns: repeat(2, 1fr); /* Change to 2 columns for small screens */

@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Style= styled.div`
 margin: 130px 0;
+overflow-x:hidden;
 h2{
   color:white;
   width: 15%;

@@ -26,7 +26,7 @@ margin: 10px 0;
   padding: 0px 16px;
  ul{
     display:flex;
-    gap:13px;
+    gap:9px;
     flex-wrap: wrap;
     padding:0;
     li{

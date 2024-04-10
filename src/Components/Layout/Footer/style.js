@@ -34,6 +34,7 @@ export const Style = styled.div`
     .container {
       width: 750px;
     }
+  
     .col-md-4 {
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
@@ -107,12 +108,15 @@ export const Style = styled.div`
   .button {
     border: 3.13px solid rgb(30, 30, 30);
     border-radius: 25px;
-    padding: 9px 38px;
+    padding: 9px 6px;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
     line-height: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
+    width: 12rem;
   }
   .m-b-25 {
     margin-bottom: 25px;

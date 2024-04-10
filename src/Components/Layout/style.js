@@ -8,6 +8,7 @@ export const Style= styled.div`
 export const Container= styled.div`
 margin: 0 auto;
 overflow: auto;
+overflow-x:hidden;
 `
 
 export default Style;
