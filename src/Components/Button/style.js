@@ -9,6 +9,7 @@ padding:8px;
     padding: 5px 62px;
     margin: 10px 0;
     height:45px;
+
     
 }
 .ant-flex-img{
@@ -28,7 +29,17 @@ padding:8px;
     width: 75%;
 
 }
-
+@media (max-width: 768px) {
+    .size-img{
+        width: 100%;
+    
+    }
+    .ant-btn{
+        width: 48%
+    
+        
+    }
+  }
 `
 
 

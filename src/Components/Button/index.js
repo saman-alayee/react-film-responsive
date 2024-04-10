@@ -7,7 +7,7 @@ export default function Button_hero (){
     return(
         <Style>
         <Flex gap="large" wrap="wrap">
-        <Link to=""><Button  type="primary">Action</Button></Link>
+      <Button  type="primary">Action</Button>
         <Button type="primary">Drama</Button>
         <Button type="primary">Animation</Button>
         <Button type="primary">Romance</Button>

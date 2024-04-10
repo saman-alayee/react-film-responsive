@@ -23,6 +23,7 @@ margin: 10px 0;
  margin-left: 9px;
 }
 .menu{
+  padding: 0px 16px;
  ul{
     display:flex;
     gap:13px;
@@ -32,7 +33,7 @@ margin: 10px 0;
         list-style:none ;
         border: 3.13px solid rgb(30, 30, 30);
         border-radius: 14px;
-        padding: 6px 11px;
+        padding: 8px 8px;
       
         a{
           padding:3px;
@@ -89,6 +90,12 @@ margin: 10px 0;
    .dow-app-red{
     display:none;
    }
+   li{
+    list-style:none ;
+    border-radius: 14px;
+    padding: 8px 8px;
+    font-size:10px;
+  }
 }
 @media (max-width: 500px){
   .logo{

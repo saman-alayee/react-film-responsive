@@ -46,7 +46,7 @@ export const Style = styled.div`
   }
   .navigation-buttons {
     position: absolute;
-    transform: translateY(20%);
+    transform: translateY(35%);
     display: flex;
     justify-content: space-between;
     width: 100%;

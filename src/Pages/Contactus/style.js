@@ -4,6 +4,7 @@ export const Style= styled.div`
 background-color:rgb(25, 25, 25);
 color:rgb(168, 168, 168);
 margin-top: 160px;
+overflow-x:hidden;
 p{
     padding:0;
     margin:0
@@ -116,7 +117,7 @@ display:flex;
 @media (max-width: 767px) {
 
   .img{
-      width: 329px;
+      width: 300px;
   }
 }
 .gap-10{

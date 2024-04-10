@@ -30,7 +30,9 @@ export const Style = styled.div`
   ul.list li {
     width: 240px;
   }
-  
+  search-container {
+    margin-bottom: 15rem;
+  }
   ul.list li a {
     display: flex;
     flex-direction: column;

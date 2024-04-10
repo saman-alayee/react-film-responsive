@@ -27,9 +27,9 @@ export default function Header (){
           </div>
           <div className="align-items" >
             <Link to="/search">
-            <a href="#" className="search-button"><IoIosSearch/></a>
+            <button href="#" className="search-button"><IoIosSearch/></button>
             </Link>
-            <a href="#" className="dow-app-red"> Downlod Application</a>
+            <button className="dow-app-red"> Downlod Application</button>
           </div>
         </div>
         </div>

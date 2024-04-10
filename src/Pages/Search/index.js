@@ -40,11 +40,13 @@ export default function Search(){
     }
     return(
         <Style>
+        <div className="search-container">
         <div className="input-container">
         <Input  onChange={onType} size="large" placeholder="please type here" prefix={<SearchOutlined />} />
         </div>
         <div>
          {(data.data.length == 0) ?(<h2>Search not found</h2>):( <ul className="list">{renderFarm()}</ul>)}
+        </div>
         </div>
         </Style>
     )

@@ -5,6 +5,7 @@ background-color:rgb(25, 25, 25);
 color:rgb(168, 168, 168);
 margin-bottom:80px;
 margin-top:160px;
+overflow-x:hidden;
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +83,7 @@ p{
     .sm-12 {
       flex: 0 0 100%;
       max-width: 100%;
-      padding: 0 30px;
+      
     }
     .img{
         width: 329px;
@@ -96,8 +97,9 @@ p{
       max-width: 25%;
     }
     .col-md-9 {
-        flex: 0 0 75%;
-        max-width: 75%;
+      flex: 0 0 75%;
+      padding-left: 9rem;
+      max-width: 85%;
       }
       .col-md-12 {
         flex: 0 0 100%;

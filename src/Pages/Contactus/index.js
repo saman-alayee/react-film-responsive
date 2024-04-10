@@ -7,7 +7,7 @@ export default function Contactus (){
       <Style>
          <div className="container">
        <div className=" holder-box text-center ">
-        <div className="holder-box paddig-tb">
+        <div className="holder-box mb-40 paddig-tb">
             <div >
                 <img className="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSViKQLaFRPODymb87a6aoZcwY3G9q5VLCmHA&s"/>
                <p className="mb-15 bold"> contact us </p>
@@ -29,7 +29,7 @@ export default function Contactus (){
               <div className="col-lg-6 col-md-6 sm-12">
                 <input className="padding-input mr-10 input-form" type="text" placeholder="your number"/>
                 </div>
-                <div className="col-lg-6 col-md-6 sm-12">
+                <div className="col-lg-6 col-md-6 sm-12 ">
               <input className="padding-input mr-10 input-form" type="text" placeholder="your message"/>
               </div>
               </div>
