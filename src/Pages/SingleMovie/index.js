@@ -51,10 +51,14 @@ images: [
           <div className="movie-information">
             <div className="container">
               { loading ? <h1> please wait</h1> : <div className="holder-movie">
+              <div className="row">
+                 <div className="col-lg-6 col-md-6 sm-12">
                   <div className="poster">
                      <img className="poster-size" src={poster} alt={moveiTitle}/>
                   </div>
-                   <div className="detailes">
+                  </div>
+                  <div className="col-lg-6 col-md-6 sm-12">
+                   <div className="details">
                     <h1 className="movei-name">{moveiTitle}</h1>
                     <h3> director : {director}</h3>
                     <h3> writer : {writer}</h3>
@@ -72,7 +76,8 @@ images: [
                        <h3>genres : {genres}</h3>
                        <p>description: {plot}</p>
                     </div>
-                  </div>
+                  </div></div>
+               </div>
                </div>}
             </div>
           </div>

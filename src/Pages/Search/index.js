@@ -40,7 +40,7 @@ export default function Search(){
     }
     return(
         <Style>
-        <div>
+        <div className="input-container">
         <Input  onChange={onType} size="large" placeholder="please type here" prefix={<SearchOutlined />} />
         </div>
         <div>

@@ -8,6 +8,7 @@ export const Style = styled.div`
   align-items: center;
   padding: 8px;
   margin-top: 85px;
+ 
   .hero-container {
     height: 100%;
     width: 100%;
@@ -18,6 +19,7 @@ export const Style = styled.div`
       "img2 img3 img4 img4 img4 img5"
       "img2 img3 img4 img4 img4 img5";
     gap: 10px;
+
     .hero-img1 {
       grid-area: img1;
     }
@@ -33,19 +35,27 @@ export const Style = styled.div`
     .hero-img5 {
       grid-area: img5;
     }
-    .hero-img{
+    .hero-img {
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center;
-      border-radius:15px;
-        }
-
-  }
-  @media screen and (max-width: 760px){
-    .hero-container{
-      grid-template-columns:repeat(2 , 1fr);
+      border-radius: 15px;
     }
-  } 
+  }
+
+  @media screen and (max-width: 760px) {
+    .hero-container {
+      grid-template-areas:
+        "img1 img3"
+        "img4 img4"
+        "img5 img2"
+        "img5 img2";
+    }
+  }
+  @media (max-width: 768px) {
+    height: 190vh;
+    margin-top: 135px;
+  }
 `;
 
 export default Style;

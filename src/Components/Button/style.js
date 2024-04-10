@@ -25,9 +25,10 @@ padding:8px;
     text-align:center;
 }
 .size-img{
-    width: 1143px;
-    height: 179px;
+    width: 75%;
+
 }
+
 `
 
 

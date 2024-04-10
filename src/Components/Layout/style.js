@@ -6,8 +6,8 @@ export const Style= styled.div`
  margin-top:16px;
 `
 export const Container= styled.div`
-width: 1480px;
 margin: 0 auto;
+overflow: auto;
 `
 
 export default Style;

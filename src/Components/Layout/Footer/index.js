@@ -6,6 +6,8 @@ export default function Footer (){
     <Style>
       <div className="container ">
         <div className="flex-holder flex justy-space gap-20">
+        <div className="row">
+          <div className="col-lg-4 col-md-4 sm-12">
           <div className="text-box flex flex-dir-column flex-wrap width border-line-right">
             <div className="line-one flex flex-wrap flex-dir-row align-items-center m-b-25 gap-10">
             <img className="logo size-img" src={Logo}/>
@@ -17,6 +19,8 @@ export default function Footer (){
               <p className="flex-nowrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
           </div>
+          </div>
+          <div className="col-lg-4 col-md-4 sm-12">
           <div className="dow-app gap-10 flex flex-dir-column border-line-right ">
             <p className=""> Downlod App</p>
             <div className="align-items-center button gap-10 flex bg-bazar ">
@@ -31,10 +35,12 @@ export default function Footer (){
             <svg className="size-img border-icons" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="googleplay next-m2bho0"><g clip-path="url(#:R1ad9mqkl6r6:clip0_4934_17226)"><path d="M10.0058 10.3713L3.06201 18.0744C3.14173 18.3657 3.28284 18.6341 3.4747 18.8594C3.66657 19.0846 3.9042 19.2608 4.1697 19.3748C4.4352 19.4887 4.72165 19.5373 5.00748 19.5171C5.29331 19.4968 5.57107 19.4082 5.81986 19.2578L13.6329 14.5461L10.0058 10.3713Z" fill="#EA4335"></path><path d="M17.0272 9.06197L13.6485 7.01294L9.84546 10.5467L13.664 14.5352L17.0169 12.5081C17.231 12.3902 17.4211 12.2287 17.5761 12.0329C17.7311 11.837 17.848 11.6106 17.9202 11.3667C17.9923 11.1229 18.0182 10.8663 17.9964 10.6118C17.9745 10.3573 17.9054 10.1099 17.793 9.88377C17.6176 9.53392 17.3473 9.24769 17.0169 9.06197H17.0272Z" fill="#FBBC04"></path><path d="M3.06209 3.45728C3.02078 3.62171 2.9999 3.79116 3 3.96131V17.5704C2.9999 17.7405 3.02078 17.91 3.06209 18.0744L10.2439 10.5686L3.06209 3.45728Z" fill="#4285F4"></path><path d="M9.99552 10.7659L13.5864 7.013L5.78372 2.27942C5.49008 2.09762 5.15629 2.00123 4.81614 2C4.4053 1.99914 4.00546 2.14055 3.67758 2.40267C3.34969 2.66478 3.11174 3.03324 3 3.45186L9.99552 10.7659Z" fill="#34A853"></path></g><defs><clipPath id=":R1ad9mqkl6r6:clip0_4934_17226"><rect width="15" height="17.5263" fill="white" transform="translate(3 2)"></rect></clipPath></defs></svg>
               <span className="m-l-20"> GOOGLE PLAY</span>
             </div>
-          </div>
+          </div></div>
+          <div className="col-lg-4 col-md-4 sm-12">
           <div className="namad align-items-center flex">
             <img className="img-namad"  src="https://www.namava.ir/images/enamad.png"/>
             <img className="img-namad" src="https://www.p30web.org/wp-content/uploads/2016/12/enamad_icon_text_color_blue_1024.png"/>
+            </div> </div>
           </div>
         </div>
       </div>

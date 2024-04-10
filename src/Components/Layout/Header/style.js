@@ -26,6 +26,7 @@ margin: 10px 0;
  ul{
     display:flex;
     gap:13px;
+    flex-wrap: wrap;
     padding:0;
     li{
         list-style:none ;
@@ -81,12 +82,7 @@ margin: 10px 0;
   width:100%;
 }
 @media (max-width:1000px){
-  .AboutUs{
-     display:none;
-  }
-  .ContactUs{
-    display:none;
-  }
+
 }
 @media(max-width: 700px){
    width:100%;
