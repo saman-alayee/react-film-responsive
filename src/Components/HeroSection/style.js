@@ -44,19 +44,35 @@ export const Style = styled.div`
     }
   }
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 620px) {
     .hero-container {
       grid-template-areas:
-        "img1 img3"
-        "img4 img4"
-        "img5 img2"
-        "img5 img2";
+        "img1 img1 img1"
+        "img2 img2 img2"
+        "img3 img3 img3"
+        "img4 img4 img4"
+        "img5 img5 img5"
     }
   }
-  @media (max-width: 768px) {
-    height: 190vh;
+  @media (max-width: 620px) {
+    height: 390vh;
     margin-top: 135px;
   }
+  @media (min-width: 620px) and (max-width: 992px) {
+    height: 390vh;
+    margin-top: 135px;
+    .hero-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-areas:
+            "img1 img2"
+            "img3 img4"
+            "img5 img6"
+            /* Add more rows as needed */
+        ;
+    }
+}
+
 `;
 
 export default Style;
